@@ -44,6 +44,11 @@ module.exports = {
           label: "SnarkyJS API Reference",
           items: [
             {
+              type: "doc",
+              id: "zkapps/snarkyjs-reference/README",
+              label: "Overview",
+            },
+            {
               type: "category",
               label: "Classes",
               items: [
