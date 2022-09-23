@@ -12,8 +12,8 @@ module.exports = {
         "about-mina/faq",
         {
           type: "link",
-          label: "Whitepaper", // The link label
-          href: "https://minaprotocol.com/wp-content/uploads/economicsWhitepaper.pdf", // The external URL
+          label: "Whitepaper",
+          href: "https://minaprotocol.com/wp-content/uploads/economicsWhitepaper.pdf",
         },
       ],
     },
@@ -36,12 +36,188 @@ module.exports = {
         {
           type: "category",
           label: "Tutorials",
-          items: [
-            "zkapps/tutorials/anonymous-message-board",
-          ],
+          items: ["zkapps/tutorials/anonymous-message-board"],
         },
         "zkapps/zkapps-for-ethereum-developers",
-        "zkapps/snarkyjs-reference",
+        {
+          type: "category",
+          label: "SnarkyJS API Reference",
+          items: [
+            {
+              type: "category",
+              label: "Classes",
+              items: [
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/AccountUpdate",
+                  label: "AccountUpdate",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Bool",
+                  label: "Bool",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Character",
+                  label: "Character",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Circuit",
+                  label: "Circuit",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/CircuitString",
+                  label: "CircuitString",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/CircuitValue",
+                  label: "CircuitValue",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Field",
+                  label: "Field",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Group",
+                  label: "Group",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Int64",
+                  label: "Int64",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Keypair",
+                  label: "Keypair",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Ledger",
+                  label: "Ledger",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/PrivateKey",
+                  label: "PrivateKey",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Proof",
+                  label: "Proof",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Scalar",
+                  label: "Scalar",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/SelfProof",
+                  label: "SelfProof",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Sign",
+                  label: "Sign",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Signature",
+                  label: "Signature",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/SmartContract",
+                  label: "SmartContract",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Token",
+                  label: "Token",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/Types.PublicKey",
+                  label: "Types.PublicKey",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/UInt32",
+                  label: "UInt32",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/UInt64",
+                  label: "UInt64",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/classes/VerificationKey",
+                  label: "VerificationKey",
+                },
+              ],
+            },
+            {
+              type: "category",
+              label: "Interfaces",
+              items: [
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/interfaces/AsFieldElements",
+                  label: "AsFieldElements",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/interfaces/Permissions",
+                  label: "Permissions",
+                },
+              ],
+            },
+            {
+              type: "category",
+              label: "Modules",
+              items: [
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/modules/Encoding",
+                  label: "Encoding",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/modules/Encryption",
+                  label: "Encryption",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/modules/Experimental",
+                  label: "Experimental",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/modules/Mina",
+                  label: "Mina",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/modules/Types.Json",
+                  label: "Types.Json",
+                },
+                {
+                  type: "doc",
+                  id: "zkapps/snarkyjs-reference/modules/Types",
+                  label: "Types",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     {
@@ -100,9 +276,7 @@ module.exports = {
     {
       type: "category",
       label: "Exchange Operators",
-      items: [
-        "exchange-operators/faq",
-      ],
+      items: ["exchange-operators/faq"],
     },
     {
       type: "category",
